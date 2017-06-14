@@ -1,99 +1,136 @@
 <!DOCTYPE html>
 <html>
-<body  >
+
+
+<head>
   <link rel="stylesheet" href="/js/jquery-ui.custom.min.css">
   <link rel="stylesheet" href="/js/bootstrap.min.css">
   <link rel="stylesheet" href="/js/express.css">
-
-
-
-
-<style>#p1 {background-color:hsl(120,100%,50%);}
-#p2 {background-color:hsl(370,80%,70%);}
-#p3 {background-color:hsl(120,100%,25%);}
-#p4 {background-color:hsl(120,60%,70%);}
-#p5 {background-color:hsl(290,100%,50%);}
-#p6 {background-color:hsl(290,60%,70%);}
-.picture1 {background-image: url(https://fonts.googleapis.com/css?family=Pacifico)}
-
-header, footer {
-color: white;
-background-color: black;
-clear: left;
-text-align: center;
+   <link rel="stylesheet" href="C:\Users\vilden\Downloads\bulma-0.4.2.zip\bulma-0.4.2\css\bulma.css">
+   <script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
+</script>
+</head>
+<body>
 
-.source {
-    border: 1px solid blueviolet;
-    outline-color: whitesmoke;
-    outline-style: dashed;
-    font-family: Arial, Helvetica, sans-serif;
-     font-size: 14pt;
-    font-style: oblique
-    
+  <style>
+
+body {
+     margin: 0;
+     background: url('http://cdn.pcwallart.com/images/light-blue-color-wallpaper-2.jpg');
+     background-size: auto;
+     background-repeat: no-repeat;
+     font: 16px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.font{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18pt;
-  font-style: normal;
+ .bottom {
+    position: fixed;
+    bottom: 0;
+    font-size: 16;
+    text-align: center;
+ }
+   .panel > .panel-heading {
+    background-image: none;
+    background-color: lightblue;
+    color: black;
+
+} 
+p {
+  font: bold
+} 
+
+
+</style> 
   
-}
+      <div class="container-fluid">
+        <nav class="navbar-inverse navbar-lg">
+        <div class="navbar-header">
+          <a href="./" class="navbar-brand brand"></a>
+        </div>
 
-li{
-  display: inline;
-}
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
 
-</style>
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="">
+              <a class="visible-xs" href="./">Home</a>
+            </li>
+
+            <li class="">
+              <a class="page-scroll" href="./features.html">Features</a>
+            </li>
+            <li class="">
+              <a class="page-scroll" href="./license.html">License</a>
+            </li>
+            <li class="">
+              <a class="page-scroll" href="./support.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      
+    </nav>
+   
 
 
 
-<div class="col-lg-12">
-<div  align="center" class="picture1" >
+
+
+
+  <div class = "row">
+<div class="col-lg-12" align = "center">
+<div  align="center" >
  <title>My First Page</title> 
-  
-<div class = "Panel">
-<header>
-<h1><span> The Purpose  </span></h1>
-</header>
 
-<img src=http://albuquerquetutor.com/wp-content/uploads/2016/09/learning.jpg height="300" width = "400">
+
+
+</div>
      <h4> By Justin Kilpatrick </h4>
 <br>
-<table width = 100%> 
- 
- </td>
- &nbsp;
- <td>
-<nav> 
-  <ul class = "font" id = "p6" >
-    <li>Home</li>
-    <li>Articles</li>
-    <li>Forum </li>
-    <li>Info </li>
-    <li>Login </li>
-  </ul>
-</nav>
-</td>
-
-<div class = "col-lg-4"</div>
-</table>
-<h2> Summary </h2>
 
 
-<p class = "source"> The first thing I would write <p></div>
 
-<h2> Description </h2>
+<h2> Test Environment </h2>
 
-<p class = "source" class = "font" >&nbsp; The next thing I would write <p></div>
+
+<p>The first thing I would write </p>
+
+
+
+<div class = "panel panel-Primary">
+    <div class = "panel-heading" >Button Test
+    </div>
+      <div class = "panel-body"> 
+        <button type="button" class="btn btn-success" onclick='document.getElementById("inputbox").value = "Hello JavaScript!"'>Click Me!</button>
+        <div class="floater"><input type="text" id= "inputbox" /></div>
+    <div id = "demo"></div>
+
+
+      </div>
+   
+  </div>
+</div>
+</div>
+
+
 
 <br>
-<br>
 
-<footer>
+<footer class = "bottom" align = "center">
   copyright 
 </footer>
+</div>
 
-</div>
-</div>
+</body>
+
+
